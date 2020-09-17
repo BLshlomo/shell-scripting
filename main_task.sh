@@ -1,11 +1,10 @@
+#!/bin/bash
 
 # The script ask for a folder name, find it and itirate over it content (can be recursive)
 # and does 3 things, if file is archive or compressed, changes the name, else if the file name
 # follows the pattern, then checks for access time and if older then two days, delete the file
 # else compress the file using gzip and change it name, there is a log file attached and
 # on screen only progress bar is displayed
-
-#!/bin/bash
 
 explanation() {
 	clear
